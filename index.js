@@ -5,7 +5,7 @@ const PORT = 4000;
 app.get("/", (req, res) => {
   res.json({
     nombre: "Néstor Enrique Villatoro Avendaño",
-    album_favorito: "José José - 20 triunfadoras"
+    cancion_favorita: "José José - El Triste"
   });
 });
 
